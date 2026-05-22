@@ -40,7 +40,7 @@ class OrderState(StatesGroup):
 
 
 # ----------------- KLAVIATURALAR -----------------
-def get_main_menu():s
+def get_main_menu():
     return ReplyKeyboardMarkup(
         keyboard=[
             [KeyboardButton(text="Zakaz berish")],
@@ -48,7 +48,6 @@ def get_main_menu():s
         ],
         resize_keyboard=True
     )
-
 
 def get_regions_menu():
     return ReplyKeyboardMarkup(
