@@ -169,14 +169,14 @@ async def process_username(message: types.Message, state: FSMContext):
     except Exception as e:
         logging.error(f"Excel xatosi: {e}")
 
-    # Adminga xabar yuborish
-    admin_text = (
-        f"🔔 **YANGI ZAKAZ!**\n\n"
-        f"👤 **Ism:** {name}\n"s
-        f"🌍 **Platforma/Region:** {region}\n"
-        f"📧 **Email:** {email}\n"
-        f"🎮 **Nickname:** {nickname}\n"
-        f"✈️ **Telegram:** {username}"
+        # Adminga xabar yuborish
+        admin_text = (
+    f"🔔 **YANGI ZAKAZ!**\n\n"
+    f"👤 **Ism:** {name}\n"
+    f"🌍 **Platforma/Region:** {region}\n"
+    f"📧 **Email:** {email}\n"
+    f"🎮 **Nickname:** {nickname}\n"
+    f"✈️ **Telegram:** {username}"
     )
 
     try:
