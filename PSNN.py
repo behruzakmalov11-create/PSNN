@@ -172,7 +172,7 @@ async def process_username(message: types.Message, state: FSMContext):
     # Adminga xabar yuborish
     admin_text = (
         f"🔔 **YANGI ZAKAZ!**\n\n"
-        f"👤 **Ism:** {name}\n"
+        f"👤 **Ism:** {name}\n"s
         f"🌍 **Platforma/Region:** {region}\n"
         f"📧 **Email:** {email}\n"
         f"🎮 **Nickname:** {nickname}\n"
